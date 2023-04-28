@@ -7,24 +7,39 @@ h1{
     font-family:sans-serif
 }
 
+p{
+    color:white;
+    font-size:20px;;
+}
+
 /*classes*/
 
 .circle-pic{border-radius:100px;}
 .heading-bar{
     margin:0px;
-    top: 0;
-    left:0;
+    top:0;
+    height:120px;
+    background-color:red;
+    display:flex;
+    border-style:none none solid none;
+    border-color:maroon;
+    border-width:10px;
+}
+
+.footer-bar{
+    margin:0px;
+    bottom:0;
     height: 120px;
     background-color:red;
-    display: flex;
-    border-style:none none solid none;
+    display:flex;
+    border-style:solid none none none;
     border-color:maroon;
     border-width: 10px;
 }
 
 .bg-image{
     margin:0px;
-    background-image:url("https://th.bing.com/th/id/OIP.djKEiWsxM84na2rYgVsjhAHaEK?pid=ImgDet&rs=1");
+    background-image:url("https://th.bing.com/th/id/OIP.Sa0oWeUKljc0c_ZgCONShwHaCe?pid=ImgDet&rs=1");
     background-repeat:no-repeat;
     background-position:0%;
     background-size:100%;
@@ -36,10 +51,10 @@ h1{
     top:0px;
     padding-left:5%;
     margin:0;
-    background-color:red;
-    border-style:solid none solid none;
-    border-color:maroon;
-    border-width: 10px;
+    background-color:deepskyblue;
+    border-style:double none double none;
+    border-color:limegreen;
+    border-width: 20px;
 }
 
 /*IDs*/
