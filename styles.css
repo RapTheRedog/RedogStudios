@@ -65,6 +65,16 @@ p{
     border-width: 20px;
 }
 
+.div-section-purple{
+    top:0px;
+    padding-left:5%;
+    margin:0;
+    background-image:linear-gradient(to bottom, palevioletred, purple);
+    border-style:solid none solid none;
+    border-color:green;
+    border-width: 20px;
+}
+
 .div-section-emeraldeyes{
     top:0px;
     padding-left:5%;
