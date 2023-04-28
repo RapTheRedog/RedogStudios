@@ -14,7 +14,6 @@ p{
 }
 
 /*classes*/
-
 .circle-pic{border-radius:100px;}
 .heading-bar{
     margin:0px;
@@ -44,6 +43,8 @@ p{
     font-size: 20px;
 }
 
+.no-link-decor{text-decoration:none;}
+
 .bg-image{
     margin:0px;
     background-image:url("https://th.bing.com/th/id/OIP.Sa0oWeUKljc0c_ZgCONShwHaCe?pid=ImgDet&rs=1");
@@ -54,13 +55,23 @@ p{
     background-color:green;
 }
 
-.div-section-1{
+.div-section-lightblue{
     top:0px;
     padding-left:5%;
     margin:0;
     background-image:linear-gradient(to bottom, lightskyblue, deepskyblue);
     border-style:solid none solid none;
     border-color:limegreen;
+    border-width: 20px;
+}
+
+.div-section-emeraldeyes{
+    top:0px;
+    padding-left:5%;
+    margin:0;
+    background-image:linear-gradient(to bottom, limegreen, green);
+    border-style:solid none solid none;
+    border-color:goldenrod;
     border-width: 20px;
 }
 
