@@ -103,6 +103,11 @@ p{
     border-width:20px;
 }
 
+/*Pseudoclasses for classes (ID pseudoclasses are next to the ID)*/
+.imgbutton:hover{
+    rotate:-5deg;
+}
+
 /*IDs*/
 
 #heading-logo{
@@ -114,6 +119,10 @@ p{
     padding-bottom: 15px;
 }
 
+#heading-logo:hover{
+    rotate:-10deg;
+}
+
 #logo-title{
     margin:0;
     padding-top:40px;
@@ -123,6 +132,8 @@ p{
     color:white;
     font-family:sans-serif;
 }
+
+#logo-title:hover{filter:brightness(80%)}
 
 /*Webpage Start Pictures*/
 #startimage-homepage{
