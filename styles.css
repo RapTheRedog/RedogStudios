@@ -35,7 +35,7 @@ p{
     display:flex;
     border-style:dotted none none none;
     border-color:cyan;
-    border-width: 10px;
+    border-width: 20px;
 }
 
 .footer-bar > p{
@@ -75,8 +75,8 @@ p{
 }
 
 .imgbutton{
-    width:600px;
-    height:300px;
+    width:30%;
+    height:width*2;
     border-style:solid;
     border-color:cornflowerblue;
     border-width:20px;
