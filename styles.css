@@ -102,3 +102,24 @@ p{
     color:white;
     font-family:sans-serif;
 }
+
+/*Webpage Start Pictures*/
+#startimage-homepage{
+    margin:0px;
+    background-image:url("https://pbs.twimg.com/media/Fk0nLaQXwAApWBH?format=jpg&name=large");
+    background-repeat:no-repeat;
+    background-position:0%;
+    background-size:100%;
+    height:500px;
+    background-color:green;
+}
+
+#startimage-emeraldeyes{
+    margin:0px;
+    background-image:url("https://pbs.twimg.com/media/FgCIv7oWYAEIydI?format=jpg&name=4096x4096");
+    background-repeat:no-repeat;
+    background-position:0%;
+    background-size:100%;
+    height:500px;
+    background-color:green;
+}
