@@ -2,14 +2,14 @@ body{
     background-color: lightcoral;
 }
 
-.circle-pic{border-radius:100}
+.circle-pic{border-radius:100px;}
 .heading-bar{
     margin:0px;
     position: absolute;
     top: 0;
     left:0;
     height: 120px;
-    background-color: red;
+    background-color:red;
     width: 100%;
     display: flex;
 
@@ -28,4 +28,25 @@ body{
     width:100%;   
     height:500px;
     background-color:green;
+}
+
+/*IDs*/
+
+#heading-logo{
+    height:75%;
+    border-radius:100px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+#logo-title{
+    margin:0;
+    padding-top:40px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    font-family:sans-serif;
 }
