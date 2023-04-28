@@ -4,12 +4,13 @@ body{
 
 h1{
     color:white;
-    font-family:sans-serif
+    font-family:sans-serif;
+    font-size:50px;
 }
 
 p{
     color:white;
-    font-size:20px;;
+    font-size:35px;
 }
 
 /*classes*/
@@ -19,22 +20,28 @@ p{
     margin:0px;
     top:0;
     height:120px;
-    background-color:red;
+    background-image:linear-gradient(red, maroon);
     display:flex;
-    border-style:none none solid none;
-    border-color:maroon;
-    border-width:10px;
+    border-style:none none dotted none;
+    border-color:cyan;
+    border-width:20px;
 }
 
 .footer-bar{
     margin:0px;
     bottom:0;
     height: 120px;
-    background-color:red;
+    background-image:linear-gradient(to top,red, maroon);
     display:flex;
-    border-style:solid none none none;
-    border-color:maroon;
+    border-style:dotted none none none;
+    border-color:cyan;
     border-width: 10px;
+}
+
+.footer-bar > p{
+    width:100%;
+    text-align:center;
+    font-size: 20px;
 }
 
 .bg-image{
@@ -47,14 +54,32 @@ p{
     background-color:green;
 }
 
-.div-section{
+.div-section-1{
     top:0px;
     padding-left:5%;
     margin:0;
-    background-color:deepskyblue;
-    border-style:double none double none;
+    background-image:linear-gradient(to bottom, lightskyblue, deepskyblue);
+    border-style:solid none solid none;
     border-color:limegreen;
     border-width: 20px;
+}
+
+.div-section-middle{
+    top:0px;
+    margin:0;
+    background-image:linear-gradient(to bottom, orange, gold);
+    border-style:solid none solid none;
+    border-color:cornflowerblue;
+    border-width: 20px;
+    text-align:center;
+}
+
+.imgbutton{
+    width:600px;
+    height:300px;
+    border-style:solid;
+    border-color:cornflowerblue;
+    border-width:20px;
 }
 
 /*IDs*/
