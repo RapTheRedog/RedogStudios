@@ -65,26 +65,7 @@ p{
     border-width: 20px;
 }
 
-.div-section-purple{
-    top:0px;
-    padding-left:5%;
-    margin:0;
-    background-image:linear-gradient(to bottom, palevioletred, purple);
-    border-style:solid none solid none;
-    border-color:green;
-    border-width: 20px;
-}
-
-.div-section-emeraldeyes{
-    top:0px;
-    padding-left:5%;
-    margin:0;
-    background-image:linear-gradient(to bottom, limegreen, green);
-    border-style:solid none solid none;
-    border-color:goldenrod;
-    border-width: 20px;
-}
-
+/*Special div sections*/
 .div-section-middle{
     top:0px;
     margin:0;
@@ -101,6 +82,27 @@ p{
     border-style:solid;
     border-color:cornflowerblue;
     border-width:20px;
+}
+
+/*Themed div sections*/
+.div-section-emeraldeyes{
+    top:0px;
+    padding-left:5%;
+    margin:0;
+    background-image:linear-gradient(to bottom, limegreen, green);
+    border-style:solid none solid none;
+    border-color:goldenrod;
+    border-width: 20px;
+}
+
+.div-section-quill{
+    top:0px;
+    padding-left:5%;
+    margin:0;
+    background-image:linear-gradient(to bottom, palevioletred, purple);
+    border-style:solid none solid none;
+    border-color:green;
+    border-width: 20px;
 }
 
 /*Pseudoclasses for classes (ID pseudoclasses are next to the ID)*/
