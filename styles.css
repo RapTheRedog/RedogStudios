@@ -47,7 +47,7 @@ p{
 
 .bg-image{
     margin:0px;
-    background-image:url("https://th.bing.com/th/id/OIP.Sa0oWeUKljc0c_ZgCONShwHaCe?pid=ImgDet&rs=1");
+    background-image:url("images/PixelPalace.jpg");
     background-repeat:no-repeat;
     background-position:0%;
     background-size:100%;
@@ -140,7 +140,7 @@ p{
 /*Webpage Start Pictures*/
 #startimage-homepage{
     margin:0px;
-    background-image:url("https://pbs.twimg.com/media/Fk0nLaQXwAApWBH?format=jpg&name=large");
+    background-image:url("Images/PixelPalace.jpg");
     background-repeat:no-repeat;
     background-position:0%;
     background-size:100%;
@@ -150,7 +150,7 @@ p{
 
 #startimage-emeraldeyes{
     margin:0px;
-    background-image:url("https://pbs.twimg.com/media/FgCIv7oWYAEIydI?format=jpg&name=4096x4096");
+    background-image:url("Images/EmeraldEyesBackground.jpg");
     background-repeat:no-repeat;
     background-position:0%;
     background-size:100%;
