@@ -82,6 +82,7 @@ p{
     border-style:solid;
     border-color:cornflowerblue;
     border-width:20px;
+    transition: rotate 0.25s;
 }
 
 /*Themed div sections*/
@@ -108,6 +109,8 @@ p{
 /*Pseudoclasses for classes (ID pseudoclasses are next to the ID)*/
 .imgbutton:hover{
     rotate:-5deg;
+    transition: rotate 0.25s;
+    transition
 }
 
 /*IDs*/
@@ -119,10 +122,12 @@ p{
     padding-right:25px;
     padding-top:15px;
     padding-bottom: 15px;
+    transition: rotate 0.25s;
 }
 
 #heading-logo:hover{
     rotate:-10deg;
+    transition: 0.25s;
 }
 
 #logo-title{
