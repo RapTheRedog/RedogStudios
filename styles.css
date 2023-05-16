@@ -55,6 +55,31 @@ p{
     background-color:green;
 }
 
+/*Buttons*/
+
+.button{
+    margin:0px;
+    padding:20px;
+    font-size:50px;
+    color:white;
+    font-family:sans-serif;
+    text-decoration:none;
+    text-align: left;
+    border-radius: 20px;
+    transition: rotate 0.25s;
+}
+
+.button:hover{
+    rotate:-5deg;
+    transition: rotate 0.25s;
+}
+
+.button-green{background-image:linear-gradient(to right, green, limegreen);}
+
+.button-purple{background-image:linear-gradient(to right, purple, palevioletred);}
+
+/*Div sections*/
+
 .div-section-lightblue{
     top:0px;
     padding-left:5%;
@@ -85,6 +110,11 @@ p{
     transition: rotate 0.25s;
 }
 
+.imgbutton:hover{
+    rotate:-5deg;
+    transition: rotate 0.25s;
+}
+
 /*Themed div sections*/
 .div-section-emeraldeyes{
     top:0px;
@@ -104,13 +134,6 @@ p{
     border-style:solid none solid none;
     border-color:green;
     border-width: 20px;
-}
-
-/*Pseudoclasses for classes (ID pseudoclasses are next to the ID)*/
-.imgbutton:hover{
-    rotate:-5deg;
-    transition: rotate 0.25s;
-    transition
 }
 
 /*IDs*/
