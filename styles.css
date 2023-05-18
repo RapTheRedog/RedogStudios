@@ -65,12 +65,10 @@ p{
     border-color:cornflowerblue;
     border-width:10px;
     transition: rotate 0.25s;
-    text-align:center;
-    
-}
+  }
 
 .imgbutton-bg{
-    background-origin:initial;
+    display:flex;
     width:30%;
     height:calc(width*2);
     text-align:center;
@@ -130,11 +128,18 @@ p{
 .div-section-middle{
     top:0px;
     margin:0;
+    text-align:center;
     background-image:linear-gradient(to bottom, orange, gold);
     border-style:solid none solid none;
     border-color:cornflowerblue;
     border-width: 20px;
-    text-align:center;
+}
+
+.div-parent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
 }
 
 /*Themed div sections*/
