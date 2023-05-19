@@ -103,16 +103,12 @@ p{
 .button:hover{
     rotate:-5deg;
     transition: rotate 0.25s;
-    transform:rotate(-5deg);
+    transform:rotate(-1deg);
 }
 
 .button-green{background-image:linear-gradient(to right, green, limegreen);}
 
 .button-purple{background-image:linear-gradient(to right, purple, palevioletred);}
-
-#linkbutton{
-    
-}
 
 /*Div sections*/
 
@@ -208,6 +204,16 @@ p{
 #startimage-emeraldeyes{
     margin:0px;
     background-image:url("Images/EmeraldEyesBackground.jpg");
+    background-repeat:no-repeat;
+    background-position:0%;
+    background-size:100%;
+    height:500px;
+    background-color:green;
+}
+
+#start-img-ee-about{
+    margin:0px;
+    background-image:url("Images/MarigoldMines.png");
     background-repeat:no-repeat;
     background-position:0%;
     background-size:100%;
