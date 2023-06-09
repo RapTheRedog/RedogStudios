@@ -18,6 +18,7 @@ p{
 .heading-bar{
     margin:0px;
     top:0;
+    z-index:999;
     height:120px;
     background-image:linear-gradient(red, maroon);
     display:flex;
