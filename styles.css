@@ -13,6 +13,24 @@ p{
     font-size:35px;
 }
 
+@media screen and (min-width: 601px) {
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+    }
+    p {
+        font-size: 17px;
+    }
+}
+
 /*classes*/
 .circle-pic{border-radius:100px;}
 .heading-bar{
@@ -62,7 +80,6 @@ p{
 /*img and backgrounds*/
 
 .imgbutton{
-    
     display:block;
     max-width:96.5%;
     max-height:100%;
@@ -118,6 +135,7 @@ p{
 .div-section-lightblue{
     top:0px;
     padding-left:5%;
+    padding-right: 5%;
     margin:0;
     background-image:linear-gradient(to bottom, lightskyblue, deepskyblue);
     border-style:solid none solid none;
